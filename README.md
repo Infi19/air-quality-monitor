@@ -39,7 +39,7 @@ A simple air quality monitoring system built with Arduino Nano that measures:
 ### Complete Wiring Diagram
 
 ![Complete Wiring](images/wiring.jpg)
-
+*Complete Wiring Diagram*
 
 ## 📚 Required Libraries
 
@@ -74,11 +74,11 @@ The display shows:
 
 The MQ135 sensor uses the following thresholds:
 
-- < 181: ✅ GOOD!
+- 181 >: ✅ GOOD!
 - 181-225: ⚠️ Poor!
 - 225-300: 🔴 Very bad!
 - 300-350: ☠️ ur dead!
-- > 350: ☢️ Toxic
+- 350 < : ☢️ Toxic
 
 These thresholds are approximate and might need calibration for your specific environment.
 
@@ -200,5 +200,4 @@ These thresholds are approximate and might need calibration for your specific en
 
 ---
 
-*Note: Create a folder named "images" in your project directory and add the project_overview.jpg and complete_wiring.jpg images to it.*
  
